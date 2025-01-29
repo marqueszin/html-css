@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E8E7C2;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to top ,#023C1D,#156F3B,#279F5C);
+    padding: 10px 10px 2px 10px;
+}
+
+nav {
+    text-align: left;
+    background-color: #023C1D;
+    padding: 10px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+}
+nav > a:hover {
+    padding: 2px;
+    border-radius: 2px;
+    background-color:#27A564;
+    color: rgb(3, 62, 3);
+}
+
+h1 {
+    font-family: Bebas Neue;
+    font-weight: 500;
+}
+
+.msg {
+    margin-bottom: 40px;
+}
+
+.link {
+    background-color: #92E3B5;
+    text-decoration: none;
+    color: rgb(0, 34, 0);
+    font-weight: 600;
+    padding: 2px;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'android',sans-serif;
+    color: rgb(0, 51, 0);
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3 {
+    font-family: 'android', sans-serif;
+    background-image: linear-gradient(to right,#7BCA9E, white);
+    color: #146032;
+}
+
+.droid {
+    text-align: center;
+}
+
+.video {
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    width: 850px;
+}
